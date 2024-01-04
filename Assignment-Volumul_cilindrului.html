@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Assignment: Volumul cilindrului</title>
+    </head>
+    
+    <body>
+        <script>
+            
+        var V;
+        var r = parseInt(prompt("Introduceti valoarea razei cilindrului (cm)"));
+        var H = parseInt(prompt("Introduceti valoarea inaltimii cilindrului (cm)"));
+        const PI = 3.14;
+            
+        V = Math.pow(r,2) * PI * H;
+    
+        document.write("Volumul cilindrului este: " + V.toFixed(0) + " cm<sup>3</sup>"); // afisarea rezultatului fara zecimale in documentul HTML 
+
+
+        // alert("Volumul cilindrului este: " + V.toFixed(0) + " cc");  // afisarea rezultatului fara zecimale in cadrul unei ferestre pentru afisarea mesajelor
+        
+        </script>
+    </body>
+</html>
